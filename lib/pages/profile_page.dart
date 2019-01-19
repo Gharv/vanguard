@@ -2,36 +2,75 @@ import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 
 class profile_page extends StatelessWidget{
+
+  void submit_image(){
+    print('aye');
+  }
+
   @override
   Widget build(BuildContext context) {
     return new Material(
       color: Color(0xFF75CFD6),
 
 
-      child: new CarouselSlider(
-        items: [1,2,3,4,5].map((i) {
-          return new Builder(
-            builder: (BuildContext context) {
-              return new Container(
-                width: MediaQuery.of(context).size.width,
-                margin: new EdgeInsets.symmetric(horizontal: 5.0),
-                decoration: new BoxDecoration(
-                  borderRadius: new BorderRadius.all(Radius.circular(20.0)),
-
-                  image: new DecorationImage(
-                    image: new AssetImage('images/img$i.jpg'),
-                    fit: BoxFit.cover,
-                  ),
-                  color: Colors.red
+      child: new Column(
+        children: <Widget>[
+          new Padding(
+            padding: EdgeInsets.all(5.0),
+            // nametag
+            child: SafeArea(
+              child: Chip(
+                avatar: CircleAvatar(
+                  backgroundColor: Colors.grey.shade800,
+                  child: Text('AB'),
                 ),
-                child: new Text('text $i', style: new TextStyle(fontSize: 16.0),)
-              );
-            },
-          );
-        }).toList(),
-        height: 500.0,
-        autoPlay: false
+                label: Text('Aaron Burr'),
+              ),
+            )
+          ),
+
+          new Padding(
+            padding: EdgeInsets.all(0.0),
+            child:  CarouselSlider(
+              items: [1,2,3,4,5].map((i) {
+                return new Builder(
+                  builder: (BuildContext context) {
+                    return new Container(
+                      width: MediaQuery.of(context).size.width,
+                      margin: new EdgeInsets.symmetric(horizontal: 5.0),
+                      decoration: new BoxDecoration(
+                        borderRadius: new BorderRadius.all(Radius.circular(20.0)),
+
+                        image: new DecorationImage(
+                          image: new AssetImage('images/img$i.jpg'),
+                          fit: BoxFit.cover,
+                        ),
+                        color: Colors.red
+                      ),
+                      child: new Text('text $i', style: new TextStyle(fontSize: 16.0),)
+                    );
+                  },
+                );
+              }).toList(),
+              height: 500.0,
+              autoPlay: false
+            ),
+          ),
+
+          new Padding(
+            padding: EdgeInsets.all(10.0),
+            child: RaisedButton(
+              onPressed: () => this.submit_image(),
+              child: new Text("submit_image"),
+            ),
+          ),
+        ],
       )
+      
+     
+
+
+      // child: ,
     
 
     );
