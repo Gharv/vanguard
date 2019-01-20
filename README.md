@@ -1,4 +1,6 @@
-# Bonr
+<p align="center">
+  <img src="https://github.com/smartdanny/vanguard/blob/master/images/boner2.png?raw=true"/>
+</p>
 
 **Bonr** is a mobile application for dog owners.  
 
@@ -9,7 +11,9 @@ These preferences at this moment include:
 * Sex Preference
 * Dog Size
 
-![](/res/bonr.gif)
+<p align="center">
+  <img src="https://github.com/smartdanny/vanguard/blob/master/res/bonr.gif?raw=true" style="height:50%">
+</p>
 
 One issue we foresee is individuals using the app just as another dating app without having a dog. 
 We are preventing this issue by enforcing a picture upload for each profile, 
@@ -76,10 +80,16 @@ We first came across ML Kit for Firebase. The **initial reason** for choosing th
 * After testing of Google Cloud Vision we determined it would be a good fit. The major issue we had with Google Cloud Vision was connecting with its API. The API has Client Libraries for many other languages but unfortunately Dart was not one of them. Instead we had to figure out how to make http POST requests with and http package we found. Given no examples for correctly implementing POST requests with the required authentication tokens need for Google Cloud Vision we finally figured out the correct way to send our POST requests. 
 
      * This certainty felt like one of our biggest achievements when we were able to receive a json response giving us a object labeling in a given picture and its certainty value. It only responds with object with a fairly high certainty, so then we just check the one of the object labels contain the word 'dog'.
-        
-![](/res/profile.png)  
 
-![](/res/responses.png)  
+<div class="row">
+  <div class="column">
+    <img src="https://github.com/smartdanny/vanguard/blob/master/res/profile.png?raw=true" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://github.com/smartdanny/vanguard/blob/master/res/responses.png?raw=true" style="width:100%">
+  </div>
+</div>
+
  
 ## What We Took Away
 
