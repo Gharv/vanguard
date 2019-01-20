@@ -77,7 +77,8 @@ We first came across ML Kit for Firebase. The **initial reason** for choosing th
 
      * This certainty felt like one of our biggest achievements when we were able to receive a json response giving us a object labeling in a given picture and its certainty value. It only responds with object with a fairly high certainty, so then we just check the one of the object labels contain the word 'dog'.
         
-![](/res/responses.png) 
+![](/res/responses.png)  
+
 ![](/res/profile.png)
  
 ## What We Took Away
