@@ -48,3 +48,19 @@ Technology We Used:
      * Click **Clone**
 5. Create [Virtual Device](https://developer.android.com/studio/run/managing-avds)
 6. Ensure you have a Virtual Device running and click the green RUN button in the top right of Android Studio
+
+
+## Issues We Came Across
+
+* While installing Virtual Devices we had multiple issues of not having the correct certifications for some devices. This was solved by installing each API Level that was required.  
+    Steps Taken:
+    1. Open SDK Manager in Android Studio
+    2. Select *Show Package Details*
+    3. Select the proper API Levels
+        * In our specific example we had API Level 28, but we also need API Level 27 for a package
+    4. Select the first 2 check boxs for which ever API Level needed
+    5. Hit Apply and this will download the needed SDK files
+    
+   
+ 
+    
