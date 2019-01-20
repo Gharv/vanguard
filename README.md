@@ -18,6 +18,7 @@ Technology We Used:
 * Google Cloud Storage & Google Cloud Vision
 * Android Studio
 * Git
+* Gimp
 
 ### Completed Tasks
 
