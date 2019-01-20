@@ -30,3 +30,5 @@ Technology We Used:
 - [ ] Allow user to like or dislike other profiles with buttons
 - [ ] Create filters for the prefrences listed at the beginning
 - [ ] Allow for swiping through matches
+- [x] Ensure app runs on emulated software on Android Studio
+- [ ] Test that app runs on a live IPhone
