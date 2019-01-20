@@ -1,6 +1,6 @@
-# Boner
+# Bonr
 
-**Boner** is a mobile application for dog owners.  
+**Bonr** is a mobile application for dog owners.  
 
 In our first integration we have a clean and simple interface which allows the user to upload a photo of them and their dog. We also have to ability to match with other people based on your preferences.
 These prefrences at this moment include:  
