@@ -33,6 +33,7 @@ Technology We Used:
 - [ ] Allow for swiping through matches
 - [x] Ensure app runs on emulated software on Android Studio
 - [ ] Test that app runs on a live IPhone
+- [x] Create custom logo
 
 
 ### Running the App
