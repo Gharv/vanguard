@@ -75,4 +75,6 @@ We first came across ML Kit for Firebase. The **initial reason** for chosing thi
      * This certaintly felt like one of our biggest achievements when we were able to recieve a json response giving us a object labeling in a given picture and its certainty value. It only responds with object with a fairly high certainty, so then we just check the one of the object labels contain the word 'dog'.
         
  
-    
+## What We Took Away
+
+Overall we are very proud of our work over the past couple days. Most of the time things turned out to be more difficult then anticpated, but that is to be expected. Some of the UI was actually a bit easier then we assumed it would be, espically given that non of us typically work on front end or app development. Since we want to specialize in data science we were hoping for more integration of machine learning tools. We got to implement some computer vision but we also would of wanted to add a recomendation system. Although we may not go into app development we think we have learn a lot about some of the initial stages of app development and can carry this onto future encounters in understanding and working with application developers in the future.
