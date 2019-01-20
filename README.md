@@ -47,3 +47,4 @@ Technology We Used:
      * Enter in our git repo which is: *https://github.com/smartdanny/vanguard*
      * Click **Clone**
 5. Create [Virtual Device](https://developer.android.com/studio/run/managing-avds)
+6. Ensure you have a Virtual Device running and click the green RUN button in the top right of Android Studio
