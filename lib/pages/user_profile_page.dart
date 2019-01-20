@@ -7,8 +7,12 @@ import 'package:http/http.dart' as http;
 import 'dart:convert';
 import 'package:image_picker/image_picker.dart';
 
+// import CustomIcons from '../lib/presentation/custom_icons_icons.dart';
+
 
 import 'package:cloud_firestore/cloud_firestore.dart';
+
+// const IconData(0xe9a9, fontFamily: ‘icomoon’);
 
 class Post {
   final int userId;
@@ -82,7 +86,7 @@ class Post {
                 //         base64Encode(_image.readAsBytesSync()) : '',
                 "image": {
                   "source": {
-                    "imageUri": "http://www.dogingtonpost.com/wp-content/uploads/2017/02/GoldenUnited.png"
+                    "imageUri": "https://i.imgur.com/G2BwwcA.jpg"
                   },
                 },
                 "features": [
@@ -187,30 +191,81 @@ class user_profile_page extends StatelessWidget{
               )
             )    
           ),
-
-          new Padding(
-            padding: EdgeInsets.all(10.0),
-            child: Row(
+          new Center(
+            child: new Padding(
+            padding: EdgeInsets.only(top: 30.0, left: 10, right: 10, bottom: 0.0),
+            child: Center(
+              child: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
               // crossAxisAlignment: CrossAxisAlignment.stretch,
               
               children: <Widget>[
-                new RaisedButton(
-                  color: Colors.white,
-                  onPressed: () => fetchPost(),
-                  child: new Text("submit_image"),
+                // Align(alignment: CrossAxisAlignment.center,)
+                // return Container(
+                //   decoration: BoxDecoration(borderRadius: 1.0),
+                // ),
+
+                // button 1
+                new Padding(
+                  padding: EdgeInsets.all(10.0),
+                  child: new FlatButton(
+                    color: Colors.white,
+                    shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10.0))),
+                    child: Column( // Replace with a Row for horizontal icon + text
+                      children: <Widget>[
+                        Icon(Icons.add_a_photo),
+                      ],
+                    ),
+                    onPressed: () => fetchPost(),
+                  ),
+                ),
+                
+                // button 2
+                new Padding(
+                  padding: EdgeInsets.all(10.0),
+                  child: new FlatButton(
+                    color: Colors.white,
+                    
+                    shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10.0))),
+                    child: Column( // Replace with a Row for horizontal icon + text
+                      children: <Widget>[
+                        Icon(const IconData(0xe900, fontFamily: 'icomoon')),
+                      ],
+                    ),
+                    onPressed: () => Navigator.of(context).push(new MaterialPageRoute(builder: (BuildContext context) => new profile_page())),
+                  ),
                 ),
 
-                new RaisedButton(
-                  color: Colors.white,
-                  onPressed: () => Navigator.of(context).push(new MaterialPageRoute(builder: (BuildContext context) => new profile_page())),
-                  child: new Text("bark!"),
+                // button 3
+                new Padding(
+                  padding: EdgeInsets.all(10.0),
+                  child: new FlatButton(
+                    color: Colors.white,
+                    shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10.0))),
+                    child: Column( // Replace with a Row for horizontal icon + text
+                      children: <Widget>[
+                        Icon(Icons.person),
+                      ],
+                    ),
+                    onPressed: () => print('profile section'),
+                  ),
                 ),
+
+
               ],
-            )
+            ),
+            ),
+            
+            
+            
             
             
              
           ),
+          ),
+
+
+          
 
 
 
