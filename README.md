@@ -9,6 +9,8 @@ These preferences at this moment include:
 * Sex Preference
 * Dog Size
 
+![](/res/bonr.gif)
+
 One issue we foresee is individuals using the app just as another dating app without having a dog. 
 We are preventing this issue by enforcing a picture upload for each profile, 
 and using Google Cloud Vision to check if the profile picture contains a dog.  
@@ -75,6 +77,7 @@ We first came across ML Kit for Firebase. The **initial reason** for choosing th
 
      * This certainty felt like one of our biggest achievements when we were able to receive a json response giving us a object labeling in a given picture and its certainty value. It only responds with object with a fairly high certainty, so then we just check the one of the object labels contain the word 'dog'.
         
+![](/res/responses.png)
  
 ## What We Took Away
 
