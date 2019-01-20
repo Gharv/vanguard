@@ -41,7 +41,7 @@ Technology We Used:
 2. Download and install [Android Studio](https://developer.android.com/studio/)
 3. Download Flutter and Dart [plugins](https://flutter.io/docs/get-started/editor?tab=androidstudio)
 4. Create a Flutter project from version control in Android Studio
-* Select **File** > **New** > **Project from Version Control** > **Git**
-* Enter in our git repo which is: *https://github.com/smartdanny/vanguard*
-* Click **Clone**
+     * Select **File** > **New** > **Project from Version Control** > **Git**
+     * Enter in our git repo which is: *https://github.com/smartdanny/vanguard*
+     * Click **Clone**
 5. Create [Virtual Device](https://developer.android.com/studio/run/managing-avds)
