@@ -24,6 +24,7 @@ Technology We Used:
 - [x] Install flutter and dart 
 - [ ] Create Landing Page
 - [ ] Allow users to upload pictures
+- [x] Send uploaded pictures to Google Cloud Vision
 - [x] Use computer vision to detect if upload pictures contain a dog
 - [ ] Create profile page
 - [ ] Create recommendations/browsing page
