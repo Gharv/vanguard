@@ -33,3 +33,15 @@ Technology We Used:
 - [ ] Allow for swiping through matches
 - [x] Ensure app runs on emulated software on Android Studio
 - [ ] Test that app runs on a live IPhone
+
+
+### Running the App
+
+1. Download and install [Flutter](https://flutter.io/docs/get-started/install)
+2. Download and install [Android Studio](https://developer.android.com/studio/)
+3. Download Flutter and Dart [plugins](https://flutter.io/docs/get-started/editor?tab=androidstudio)
+4. Create a Flutter project from version control in Android Studio
+  * Select **File** > **New** > **Project from Version Control** > **Git**
+  * Enter in our git repo which is: *https://github.com/smartdanny/vanguard*
+  * Click **Clone**
+5. Create [Virtual Device](https://developer.android.com/studio/run/managing-avds)
