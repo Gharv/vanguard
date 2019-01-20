@@ -18,3 +18,15 @@ Technology We Used:
 * Google Cloud Storage & Google Cloud Vision
 * Android Studio
 * Git
+
+### Completed Tasks
+
+- [x] Install flutter and dart 
+- [ ] Create Landing Page
+- [ ] Allow users to upload pictures
+- [x] Use computer vision to detect if upload pictures contain a dog
+- [ ] Create profile page
+- [ ] Create recommendations/browsing page
+- [ ] Allow user to like or dislike other profiles with buttons
+- [ ] Create filters for the prefrences listed at the beginning
+- [ ] Allow for swiping through matches
