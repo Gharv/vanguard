@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "441653206078",
+    "firebase_url": "https://boner-a8e62.firebaseio.com",
+    "project_id": "boner-a8e62",
+    "storage_bucket": "boner-a8e62.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:441653206078:android:2373e2a1dac40511",
+        "android_client_info": {
+          "package_name": "com.hotbudr.boner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "441653206078-acodnjgd8gdcg7ldne692aertjcei0d6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzHyTpwTs46_eFkcxfF7rOgVLfG9yqwkQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -16,6 +16,12 @@ dependencies:
   flutter:
     sdk: flutter
   carousel_slider: ^1.0.1
+  http: ^0.12.0+1
+  image_picker:
+  # mlkit:
+  # image_picker:
+  cloud_firestore:
+  # image_picker_ui: ^0.1.2
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -44,6 +50,9 @@ flutter:
    - images/img3.jpg
    - images/img4.jpg
    - images/img5.jpg
+   - images/profile.jpg
+   - images/kodagreg.jpg
+   - images/boner2.png
   #  - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -57,10 +66,10 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
+  fonts:
+    - family: icomoon
+      fonts:
+        - asset: custom_icons/icomoon.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro
